@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">Take and Go</string>
+    <string name="sign_up_button">S I N G U P</string>
+    <string name="log_in_button">L O G I N</string>
+    <string name="title_activity_login">LOGIN</string>
+    <string name="update_button">U P D A T E</string>
+    <string name="add_user_success">user was successfully added</string>
+    <string name="add_car_success">car was successfully added</string>
+
+    <!-- Strings related to add entity -->
+    <string name="car_add">Add Car</string>
+    <string name="car_model_add">Add Car Model</string>
+    <string name="user_add">Add User</string>
+    <string name="branch_add">Add Branch</string>
+
+    <!-- Strings related to car layout -->
+    <string name="car_number">Car Number:</string>
+    <string name="car_home_branch">Home Branch:</string>
+    <string name="car_kilometers">Kilometers:</string>
+    <string name="car_model_code">Model Code:</string>
+    <string name="car_number_separator">-</string>
+
+    <!-- Strings related to branch layout -->
+    <string name="branch_address">Address:</string>
+    <string name="branch_number">Branch Number:</string>
+    <string name="branch_parking_spaces">Parking Spaces:</string>
+    <string name="branch_address_comma">,</string>
+
+    <!-- Strings related to car model layout -->
+    <string name="car_model_car_company">Company</string>
+    <string name="car_model_acceleration">Acceleration</string>
+    <string name="car_model_model_info">Model Info</string>
+    <string name="car_model_convertible">Convertible?</string>
+    <string name="car_model_engine_capacity">Engine Capacity</string>
+    <string name="car_model_gear_box">Gear Box</string>
+    <string name="car_model_seats">Number of Seats</string>
+    <string name="car_model_doors">Number of Doors</string>
+    <string name="car_model_kilos_per_meter">Kilometers/Tank</string>
+    <string name="car_model_kilos_per_meter_slash"> /  1</string>
+    <string name="car_model_max_speed">Max Speed</string>
+    <string name="car_model_turbo">Turbo?</string>
+    <string name="car_model_horse_power">Horse Power</string>
+    <string name="car_model_trunk">Trunk Volume</string>
+    <string name="car_model_code_needed">Code?</string>
+    <string name="car_model_code_num">Code Number</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="show_all_cars">Show All Cars</string>
+    <string name="add">ADD</string>
+    <string name="password">Password</string>
+    <string name="name">Name</string>
+    <string name="add_model_success">Car Model successfully added</string>
+    <string name="add_client_success">Client successfully added</string>
+    <string name="user_not_exist">This user does not exist in the system</string>
+    <string name="wait_while_loading">Please wait while loading</string>
+    <string name="wait_while_searching">please wait while searching</string>
+    <string name="car_color">Car Color:</string>
+    <string name="pick_color">Pick Color</string>
+</resources>

@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="TextViewCategoryStyle">
+        <item name="android:textColor">@color/colorDark</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+    <style name="TextViewPresent">
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">@color/colorLight</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

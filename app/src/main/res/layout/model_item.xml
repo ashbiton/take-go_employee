@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorDark"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/TextViewPresent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Model"
+        android:textColor="@color/colorLightest"
+        android:textSize="30dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="50dp"/>
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+        android:layout_marginBottom="25dp">
+    <TextView
+        android:id="@+id/model_present_company"
+        style="@style/TextViewPresent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:ems="6"
+        android:textAlignment="textEnd"
+        android:gravity="end"/>
+
+    <TextView
+        android:id="@+id/model_present_model_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        style="@style/TextViewPresent"
+        android:ems="5"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/model_present_model_code"
+        style="@style/TextViewPresent"
+        android:layout_width="wrap_content"
+        android:ems="6"
+        android:textAlignment="textStart"
+        android:gravity="start"
+        android:layout_height="wrap_content"
+        android:text="TextView"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/TextViewPresent"
+        android:textAlignment="center"
+        android:text="Technical Specifications"
+        android:textColor="@color/colorLightest"
+        android:textSize="30dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="10dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/model_present_kilometers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text="kilometers"
+            style="@style/TextViewPresent"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/TextViewPresent"
+            android:text="  kms / 1 Tank Fuel"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text="capacity"
+            style="@style/TextViewPresent"
+            android:id="@+id/model_present_capacity"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  engine capacity"
+            style="@style/TextViewPresent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text="HORSE"
+            style="@style/TextViewPresent"
+            android:id="@+id/model_present_horse_power"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  horse power"
+            style="@style/TextViewPresent" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text="trunk"
+            style="@style/TextViewPresent"
+            android:id="@+id/model_present_trunk"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  trunk volume, "
+            style="@style/TextViewPresent" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="seats"
+            style="@style/TextViewPresent"
+            android:id="@+id/model_present_seats"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" seats"
+            style="@style/TextViewPresent" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text="GEAR"
+            style="@style/TextViewPresent"
+            android:id="@+id/model_present_gear"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  gear box"
+            style="@style/TextViewPresent" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text="SPEED"
+            style="@style/TextViewPresent"
+            android:id="@+id/model_present_speed"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  max speed ,Turbo "
+            style="@style/TextViewPresent" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="not included"
+            style="@style/TextViewPresent"
+            android:id="@+id/model_present_turbo"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text="Code  "
+            style="@style/TextViewPresent"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="not needed"
+            style="@style/TextViewPresent"
+            android:id="@+id/model_present_code"/>
+    </LinearLayout>
+</LinearLayout>
